@@ -34,3 +34,7 @@ buttonDisplayText.setOnClickListener(new View.OnClickListener() {
 ```
 
 När användaren trycker på knappen uppdateras texten i TextViewen med värdet i EditText.
+
+### Resultat
+
+![](result.png)

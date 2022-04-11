@@ -7,7 +7,7 @@ Dessa omslöts i en LinearLayout med en vertical orientation. För att få ett i
 
 Efter det initierades komponenterna som tidigare skapades i xml-filen, som privata variabler i main activity java-filen.
 
-```
+```Java
 private EditText editText;
 private Button buttonDisplayText;
 private TextView textView;
@@ -15,7 +15,7 @@ private TextView textView;
 
 Dessa populerades därefter genom funktionen `findById()`:
 
-```
+```Java
 editText = findViewById(R.id.edit_text);
 buttonDisplayText = findViewById(R.id.button_display_text);        
 textView = findViewById(R.id.final_text_view);
@@ -24,7 +24,7 @@ textView = findViewById(R.id.final_text_view);
 
 För att knappen ska uppdatera texten i TextViewen behöver den lyssna på att användaren klickar på den. Detta implementerades med koden nedan: 
 
-```
+```Java
 buttonDisplayText.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {

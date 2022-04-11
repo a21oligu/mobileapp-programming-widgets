@@ -2,10 +2,7 @@ package com.example.widgets;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.DialogInterface;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -32,15 +29,5 @@ public class MainActivity extends AppCompatActivity {
                 textView.setText(editText.getText());
             }
         });
-
-        //test
-        // test2
-        // test3
-        // test4
-        // test5
-
     }
-
-
-
 }
